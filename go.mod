@@ -1,4 +1,4 @@
-module github.com/alxmrz/life
+module github.com/alxmrz/game-of-life
 
 go 1.18
 
