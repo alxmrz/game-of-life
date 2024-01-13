@@ -2,7 +2,6 @@ package internal
 
 import (
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/hajimehoshi/ebiten/v2/vector"
 	"image/color"
 	"time"
@@ -56,9 +55,6 @@ func (g *MainGame) Draw(screen *ebiten.Image) {
 
 		}
 	}
-
-	//newImage := ebiten.Image{}
-	ebitenutil.DebugPrint(screen, "Debug info")
 }
 
 func (g *MainGame) Layout(outsideWidth, outsideHeight int) (screenWidth, screenHeight int) {
