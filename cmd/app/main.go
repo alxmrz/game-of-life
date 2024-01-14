@@ -9,7 +9,7 @@ import (
 func main() {
 	ebiten.SetWindowSize(640, 480)
 	ebiten.SetWindowTitle("Game of life")
-	if err := ebiten.RunGame(internal.NewMainGame(internal.NewGame())); err != nil {
+	if err := ebiten.RunGame(internal.NewMainGame(internal.NewGameObjects())); err != nil {
 		log.Fatal(err)
 	}
 }
